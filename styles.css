@@ -488,7 +488,49 @@ p {
   gap: 2rem;
   align-items: center;
 }
+.rate-block {
+  margin: 1.8rem 0 2.2rem;
+  padding: 1.8rem 2rem;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.7), rgba(249, 243, 235, 0.9));
+  border: 1px solid rgba(169, 110, 63, 0.14);
+  border-radius: 24px;
+  box-shadow: 0 22px 50px rgba(68, 45, 23, 0.08);
+  display: inline-block;
+  max-width: 420px;
+}
 
+.rate-label {
+  margin: 0 0 0.5rem;
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--primary-dark);
+  font-weight: 700;
+}
+
+.rate-price {
+  margin: 0;
+  font-size: clamp(2.2rem, 4vw, 3.6rem);
+  line-height: 1;
+  font-weight: 800;
+  color: var(--text);
+  font-family: "Cormorant Garamond", serif;
+}
+
+.rate-price span {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--muted);
+  letter-spacing: 0.04em;
+  margin-left: 0.3rem;
+}
+
+.rate-note {
+  margin: 0.9rem 0 0;
+  font-size: 1rem;
+  color: var(--muted);
+  line-height: 1.6;
+}
 .reserve-actions {
   display: flex;
   flex-wrap: wrap;
