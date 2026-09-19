@@ -113,10 +113,49 @@
   </button>
 </div>
 
-</div></div></section>
-<section id="fortuna" class="section"><div class="container fortuna-grid"><div class="fortuna-copy"><p class="section-tag" data-i18n="fortuna_tag">Fortuna</p><h2<div class="rate-block">
-  <p class="rate-label">Tarif à partir de</p>
-  <p class="rate-price">100 €<span>/ nuit</span></p>
+.rate-block {
+  margin: 1.8rem 0 2.2rem;
+  padding: 1.8rem 2rem;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.7), rgba(249, 243, 235, 0.9));
+  border: 1px solid rgba(169, 110, 63, 0.14);
+  border-radius: 24px;
+  box-shadow: 0 22px 50px rgba(68, 45, 23, 0.08);
+  display: inline-block;
+  max-width: 420px;
+}
+
+.rate-label {
+  margin: 0 0 0.5rem;
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--primary-dark);
+  font-weight: 700;
+}
+
+.rate-price {
+  margin: 0;
+  font-size: clamp(2.2rem, 4vw, 3.6rem);
+  line-height: 1;
+  font-weight: 800;
+  color: var(--text);
+  font-family: "Cormorant Garamond", serif;
+}
+
+.rate-price span {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--muted);
+  letter-spacing: 0.04em;
+  margin-left: 0.3rem;
+}
+
+.rate-note {
+  margin: 0.9rem 0 0;
+  font-size: 1rem;
+  color: var(--muted);
+  line-height: 1.6;
+}
   <p class="rate-note">Demandez le tarif personnalisé selon vos dates.</p>
 </div> data-i18n="fortuna_title">Una base excelente para descubrir la región de Murcia.</h2><p data-i18n="fortuna_text">Fortuna combina tranquilidad, ambiente local y facilidad para explorar rincones de la costa y del interior.</p></div><div class="fortuna-card"><h3 data-i18n="activities_title">Qué hacer</h3><ul class="activities-list"><li data-i18n="activity_1">Disfrutar del entorno rural y la calma del campo</li><li data-i18n="activity_2">Explorar pueblos y paisajes de la región</li><li data-i18n="activity_3">Visitar la costa y disfrutar de la luz mediterránea</li><li data-i18n="activity_4">Recorrer la huerta y la gastronomía local</li><li data-i18n="activity_5">Relajarse en la piscina y el jacuzzi</li></ul></div></div></section>
 <section id="reserva" class="section section--accent"><div class="container reserve-layout"><div class="reserve-copy"><p class="section-tag" data-i18n="reservation_tag">Reserva</p><h2 data-i18n="reservation_title">Reserva tu estancia con facilidad.</h2><p data-i18n="reservation_text">Puedes reservar directamente en Airbnb o contactar por WhatsApp para confirmar disponibilidad y fechas.</p><div class="reserve-actions"><a class="btn btn-primary" href="https://www.airbnb.fr/rooms/1255898519103350954" target="_blank" rel="noreferrer" data-i18n="booking_airbnb">Ver disponibilidad en Airbnb</a><a class="btn btn-secondary btn-whatsapp" href="https://wa.me/34611421863" target="_blank" rel="noreferrer" data-i18n="booking_whatsapp">Reservar por WhatsApp</a></div></div><form class="booking-form" id="booking-form" novalidate><label><span data-i18n="form_name">Nombre</span><input type="text" name="name" placeholder="Tu nombre" required /></label><label><span data-i18n="form_email">E-mail</span><input type="email" name="email" placeholder="tuemail@ejemplo.com" required /></label><div class="inline-fields"><label><span data-i18n="form_checkin">Llegada</span><input type="date" name="checkin" required /></label><label><span data-i18n="form_checkout">Salida</span><input type="date" name="checkout" required /></label></div><label><span data-i18n="form_guests">Número de viajeros</span><input type="number" name="guests" min="1" max="4" value="2" required /></label><label><span data-i18n="form_message">Mensaje</span><textarea name="message" rows="4" placeholder="Cuéntanos tus fechas o dudas"></textarea></label><button type="submit" class="btn btn-primary full-width" data-i18n="form_submit">Enviar solicitud</button><p class="form-status" aria-live="polite"></p></form></div></section><div class="rate-block">
