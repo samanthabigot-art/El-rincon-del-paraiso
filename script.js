@@ -58,7 +58,7 @@ const translations = {
     gallery_title: "Imágenes que transmiten calma, luz y tranquilidad.",
     fortuna_tag: "Fortuna",
     fortuna_title: "Una base excelente para descubrir la región de Murcia.",
-    fortuna_text: "Fortuna combina tranquilidad, ambiente local y facilidad para explorar rincones de la costa y del interior. Desde el alojamiento, la zona ofrece una experiencia relajada y muy agradable para quienes buscan vacaciones distintas.",
+    fortuna_text: "Fortuna combina tranquilidad, ambiente local y facilidad para explorar rincones de la costa y del interior. Desde el alojamiento, la zona ofrece una experiencia relajada y muy agradable.",
     activities_title: "Qué hacer",
     activity_1: "Disfrutar del entorno rural y la calma del campo",
     activity_2: "Explorar pueblos y paisajes de la región",
@@ -148,7 +148,7 @@ const translations = {
     gallery_title: "Des images qui évoquent calme, lumière et sérénité.",
     fortuna_tag: "Fortuna",
     fortuna_title: "Une base parfaite pour découvrir la région de Murcie.",
-    fortuna_text: "Fortuna associe tranquillité, ambiance locale et facilité pour explorer les environs de la côte comme de l'intérieur. Depuis l'hébergement, la zone offre une expérience douce et agréable pour des vacances reposantes.",
+    fortuna_text: "Fortuna associe tranquillité, ambiance locale et facilité pour explorer les environs de la côte comme de l'intérieur. Depuis l'hébergement, la zone offre une expérience détendue et agréable.",
     activities_title: "Que faire",
     activity_1: "Profiter du cadre rural et du calme du paysage",
     activity_2: "Explorer villages et paysages de la région",
@@ -238,7 +238,7 @@ const translations = {
     gallery_title: "Images that convey calm, light and tranquility.",
     fortuna_tag: "Fortuna",
     fortuna_title: "A great base for discovering the Murcia region.",
-    fortuna_text: "Fortuna combines tranquility, local atmosphere and easy access to both the coast and the inland countryside. From the accommodation, the area offers a relaxed and pleasant experience for different kinds of holidays.",
+    fortuna_text: "Fortuna combines tranquility, local atmosphere and easy access to both the coast and the inland countryside. From the accommodation, the area offers a relaxed and pleasant experience.",
     activities_title: "What to do",
     activity_1: "Enjoy the rural surroundings and the peace of the countryside",
     activity_2: "Explore villages and landscapes of the region",
@@ -332,9 +332,9 @@ function setLanguage(lang) {
       addressCountry: 'ES'
     },
     telephone: '+34 611 42 18 63',
-    email: 'tu-email@ejemplo.com',
+    email: 'samantha.bigot@gmail.com',
     sameAs: [
-      'https://www.airbnb.fr/rooms/1255898519103350954?guests=1&adults=1&s=67&unique_share_id=5c5c9a0b-856a-4fbf-8e0b-a1b8c301ebaf'
+      'https://www.airbnb.fr/rooms/1255898519103350954'
     ],
     geo: {
       '@type': 'GeoCoordinates',
@@ -428,7 +428,7 @@ function handleBookingForm() {
       `Nombre: ${name}\nE-mail: ${email}\nLlegada: ${checkin}\nSalida: ${checkout}\nNúmero de viajeros: ${guests}\n\nMensaje:\n${message}`
     );
 
-    const mailLink = `mailto:tu-email@ejemplo.com?subject=${subject}&body=${body}`;
+    const mailLink = `mailto:samantha.bigot@gmail.com?subject=${subject}&body=${body}`;
     window.location.href = mailLink;
 
     if (app.status) {
